@@ -93,7 +93,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                           <Link href="https://wa.me/917522891465">
                             <a className="butn bord curve mt-30">
                               <span>Chat on &nbsp; &nbsp;
-                                <i class="fab fa-whatsapp"></i>
+                                <i className="fab fa-whatsapp"></i>
                               </span>
                             </a>
                           </Link>
