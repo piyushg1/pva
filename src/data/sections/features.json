@@ -1,26 +1,20 @@
 [
     {
         "id": 1,
-        "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "pe-7s-users",
+        "title": "Advise",
+        "content": "Boost Your Portfolio Performance!"
     },
     {
         "id": 2,
         "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "title": "On the go",
+        "content": "Partner with Us for Reliable Stock Market Advisory Services!"
     },
     {
         "id": 3,
         "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
-    },
-    {
-        "id": 4,
-        "icon": "pe-7s-diskette",
-        "title": "Document Legal Policy",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Market Watch",
+        "content": "Get Top-Notch Stock Market Advice from the Pros!"
     }
 ]

@@ -2,9 +2,8 @@ import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
 import Services from "../../components/Services/services";
-import Works from "../../components/Works/works";
 import Numbers from "../../components/Numbers/numbers";
-import Clients from "../../components/Clients/clients";
+// import Clients from "../../components/Clients/clients";
 import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import DarkTheme from "../../layouts/Dark";
@@ -45,9 +44,8 @@ const Homepage1 = () => {
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <Services />
-        <Works />
         <Numbers />
-        <Clients theme="dark" />
+        {/* <Clients theme="dark" /> */}
         <CallToAction />
         <Footer />
       </div>

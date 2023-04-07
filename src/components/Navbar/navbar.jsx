@@ -49,7 +49,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/contact/contact-dark`}>
+              <Link href={`https://wa.me/917522891465`}>
                 <a className="nav-link">Contact</a>
               </Link>
             </li>
