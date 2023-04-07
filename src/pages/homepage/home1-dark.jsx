@@ -3,7 +3,6 @@ import Navbar from "../../components/Navbar/navbar";
 import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
 import Services from "../../components/Services/services";
 import Numbers from "../../components/Numbers/numbers";
-// import Clients from "../../components/Clients/clients";
 import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import DarkTheme from "../../layouts/Dark";
@@ -45,7 +44,6 @@ const Homepage1 = () => {
       <div ref={MainContent} className="main-content">
         <Services />
         <Numbers />
-        {/* <Clients theme="dark" /> */}
         <CallToAction />
         <Footer />
       </div>
