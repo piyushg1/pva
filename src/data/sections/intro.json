@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Perfect Vision Advisory",
+        "content": "Maximize Your Investment Potential with Our Expert Stock Market Advisory Services!",
+        "image": "/img/slid/i1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Beat the Market",
+        "content": "Stay Ahead of the Game! Get Top-Notch Stock Market Advice from the Pros!",
+        "image": "/img/slid/i2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Contact Us Now!",
+        "content": "Unlock Your Financial Success with Our Premium Stock Market Advisory Solutions!",
+        "image": "/img/slid/i3.jpg"
+    }
+]
