@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import introData from "../../data/sections/intro.json";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image'
 
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
 
@@ -79,25 +80,27 @@ const IntroWithSlider = ({ sliderRef }) => {
           >
             {introData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <div
-                  className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
-                  data-overlay-dark="6"
-                >
-                  <div className="container">
-                    <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-10">
-                        <div className="caption center mt-30">
-                          <h1 className="color-font">{slide.title}</h1>
-                          {slide?.content && <p>{slide.content}</p>}
-                          <Link href="https://wa.me/917522891465">
-                            <a className="butn bord curve mt-30">
-                              <span>Chat on &nbsp; &nbsp;
-                                <i className="fab fa-whatsapp"></i>
-                              </span>
-                            </a>
-                          </Link>
-                        </div>
+                <div className="bg-img valign" data-overlay-dark="6">
+                  <Image
+                    src={slide.image} // Pass the image URL as the src prop
+                    layout="fill" // Set the layout to fill, so the image takes up the entire div
+                    objectFit="cover" // Set the object fit to cover, so the image is fully covered by the div
+                    alt="Image description" // Add an alt text for accessibility
+                  />
+                </div>
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="col-lg-8 col-md-10">
+                      <div className="caption center mt-30">
+                        <h1 className="color-font">{slide.title}</h1>
+                        {slide?.content && <p>{slide.content}</p>}
+                        <Link href="https://wa.me/917522891465">
+                          <a className="butn bord curve mt-30">
+                            <span>Chat on &nbsp; &nbsp;
+                              <i className="fab fa-whatsapp"></i>
+                            </span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -134,7 +137,7 @@ const IntroWithSlider = ({ sliderRef }) => {
           </a>
         </div>
       </div>
-    </header>
+    </header >
   );
 };
 

@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Perfect Vision Advisory</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href="public/favicon.ico" />
       </Head>
       <Cursor />
       <LoadingScreen />
