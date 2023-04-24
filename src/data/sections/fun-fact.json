@@ -3,18 +3,18 @@
         "id": 1,
         "icon": "pe-7s-smile",
         "content": "Happy Customers",
-        "value": "10"
+        "value": "10000"
     },
     {
         "id": 2,
-        "icon": "pe-7s-portfolio",
-        "content": "People who are commited to their management tasks.",
-        "value": "5"
+        "icon": "pe-7s-target",
+        "content": "% Accuracy",
+        "value": "85"
     },
     {
         "id": 3,
         "icon": "pe-7s-medal",
-        "content": "Years of Experience in Stock Market Industry",
-        "value": "4"
+        "content": "+ Years of Experience in Stock Market Industry",
+        "value": "12"
     }
 ]

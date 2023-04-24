@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
 import appData from "../../data/app.json";
 
 const Footer = ({ hideBGCOLOR }) => {
@@ -25,16 +24,16 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <p>perfectvisionadvisory@gmail.com</p>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+91-7522891465</p>
+                    <p>+91-</p>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -44,17 +43,17 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src={appData.lightLogo} alt="" />
               </div>
               <div className="social">
-                <a href="#0">
+                {/* <a href="#0">
                   <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0">
+                </a> */}
+                {/* <a href="#0">
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#0">
                   <i className="fab fa-youtube"></i>
+                </a> */}
+                <a href="https://instagram.com/perfectvisionadvisory?igshid=YmMyMTA2M2Y=">
+                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
               <div className="copy-right">

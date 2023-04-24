@@ -49,7 +49,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`https://wa.me/917522891465`}>
+              <Link href={`mailto:perfectvisionadvisory@gmail.com`}>
                 <a className="nav-link">Contact</a>
               </Link>
             </li>

@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashpagination";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
+import Script from "next/dist/client/script";
 
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
@@ -94,10 +95,12 @@ const IntroWithSlider = ({ sliderRef }) => {
                       <div className="caption center mt-30">
                         <h1 className="color-font">{slide.title}</h1>
                         {slide?.content && <p>{slide.content}</p>}
-                        <Link href="https://wa.me/917522891465">
+                        <Link href="mailto:perfectvisionadvisory@gmail.com">
                           <a className="butn bord curve mt-30">
-                            <span>Chat on &nbsp; &nbsp;
-                              <i className="fab fa-whatsapp"></i>
+                            <span>Contact us now &nbsp;
+                              {/* <i className="fab fa-envelope"></i> */}
+                              {<script src="https://use.fontawesome.com/86f688be39.js"></script>}
+                              <i className="fa fa-envelope-o" aria-hidden="true"></i>
                             </span>
                           </a>
                         </Link>
@@ -126,13 +129,13 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="#0">
+          {/* <a href="#0">
             <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="#0">
+          </a> */}
+          {/* <a href="#0">
             <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#0">
+          </a> */}
+          <a href="https://instagram.com/perfectvisionadvisory?igshid=YmMyMTA2M2Y=">
             <i className="fab fa-instagram"></i>
           </a>
         </div>

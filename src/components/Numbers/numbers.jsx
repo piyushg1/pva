@@ -31,7 +31,7 @@ const Numbers = () => {
                 <span className={`icon ${item.icon}`}></span>
                 <h3 className="">
                   &nbsp;
-                  <CountUp redraw={true} end={item.value} duration="3">
+                  <CountUp redraw={true} end={item.value} duration="3.5">
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span className="count" ref={countUpRef} />
