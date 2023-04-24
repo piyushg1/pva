@@ -11,7 +11,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashpagination";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
-import Script from "next/dist/client/script";
 
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
